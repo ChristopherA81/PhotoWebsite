@@ -1,0 +1,264 @@
+
+ * {
+     box-sizing: border-box;
+ }
+ .googleFont1 {
+    font-family: 'Rajdhani', sans-serif;
+ }
+
+ body   {
+     background-image: url(../img/leinestr.JPG);
+     font-family: 'rajdhan' cursive;
+     background-size: 90%;
+     
+
+}
+div.a {
+    text-align: center;
+}
+
+div.b {
+    vertical-align: baseline;
+    
+
+    
+}
+
+div.c {
+    vertical-align: bottom;
+    
+  }
+
+    
+    
+
+
+ 
+
+
+ /*NAVIGATION*/
+
+ header {
+     position: sticky;
+     top: 0;
+
+ }
+
+ nav {
+    background-color: rgba(51, 49, 136, 0.829);
+     margin: -8px -8px 10px -8px;
+
+ }
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: space-around;
+
+}
+
+nav ul li {
+    display: inline-block;
+    
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 -4px; 
+
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: white;
+
+}
+
+nav ul li a:hover, #active {
+    color: rgb(96, 9, 107);
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+nav ul li a:active {
+    color:azure;
+    background-color:black; 
+
+
+}
+
+
+
+
+/* GALLERY*/
+
+
+
+.gallery ul {
+    list-style-type: none;
+    display: inline-block;
+     margin: 10;
+     padding: 30px;
+     display: flex;
+     justify-content: space-evenly;
+     
+    background-color: rgba(0, 0, 0, 0.13);
+     
+}
+
+
+
+   
+
+.gallery li {
+    font-size:12pt;
+    display: block;
+    height:90px;
+    width: 145px; 
+    text-align: center; 
+    transition: all 0.2s ease-in-out; 
+}
+
+.gallery li a {
+    
+    color:#eee;
+    font-size:22pt;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+.gallery li i {
+    color:#fff;
+    padding: -10px;
+}
+.gallery li b {
+    padding: -10px ;
+    display: none;
+} 
+.gallery ul li a:link, nav ul li a:visited {
+    color:white;
+
+}
+
+.gallery ul li a:hover, #active {
+    color: rgb(96, 9, 107);
+    background-color: aquamarine
+
+
+
+}
+
+.gallery ul li a:active {
+    color:azure;
+    background-color: rgba(0, 0, 0, 0.151); 
+
+
+}
+
+.fonts {
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    bottom: auto;
+
+}
+
+
+
+
+/* Forms */
+
+form {
+    width: 100%;
+    margin: 2;
+    
+}
+
+form div {
+    margin-bottom: 15px;
+    vertical-align: 15%;
+    
+    
+}
+
+form .inputlabel {
+    display: block;
+    width: 35%;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.452);
+    
+
+}
+
+form .mailinglist {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: right;
+    color: white;
+
+    
+    
+}
+
+
+
+
+.writing {
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.295);
+    
+}
+
+
+
+
+  p2 {
+    list-style-type: none;
+    margin: -2;
+    padding: 2;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.438);
+
+  }
+  
+  .center {
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+   
+
+}
+
+   
+   
+
+
+   
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
